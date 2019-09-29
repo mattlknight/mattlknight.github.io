@@ -1,6 +1,6 @@
 ---
-title: "Welcome to Jekyll!"
-published: false
+title: "This probably shouldn't be here!"
+published: true
 ---
 
 **Hello world**, this is my first Jekyll blog post.
@@ -8,6 +8,19 @@ published: false
 I hope you like it!
 
 # Highlighter
+## Oxidized
+```rust
+fn recursive(f: F) where F: FnOnce {
+  recursive(f);
+}
+
+fn main() {
+  recursive(|| {
+    println!("This is way too recursive!");
+  });
+}
+```
+
 ## Ruby
 ```ruby
 def show
